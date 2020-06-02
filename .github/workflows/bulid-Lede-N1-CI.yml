@@ -143,3 +143,8 @@ jobs:
         name: ${{ env.firmware_3 }}
         path: out/5.4.43
   
+    - name: Upload config file
+      uses: actions/upload-artifact@master
+      with:
+         name: config
+         path: out/config.seed
