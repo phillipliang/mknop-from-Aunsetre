@@ -299,7 +299,7 @@ while [ "$1" ]; do
         exit
         ;;
     -d | --default)
-        : ${rootsize:=512}
+        : ${rootsize:=2048}
         : ${firmware:="${firmwares[0]}"}
         : ${kernel:="all"}
         ;;
